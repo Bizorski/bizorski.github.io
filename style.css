@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100%;
+    background-color:#dcdcdd;
+    background-size: cover;
+      }
+ 
+.masthead{
+    padding: 2em 0;
+    border-top: solid 1em;
+    border-top-color:  rgba(25 133 161,0.5);
+    border-bottom-color:  rgba(25 133 161,0.8);
+    border-bottom: solid 1em;
+  }
+.masthead-heading {
+    color: rgb(76 92 104);
+    font-weight: bold;
+    font-family:;
+    font-size: 3em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family:;
+  font-size: 1em;
+  text-align: center;
+}
+
+.aboutme{
+  display: grid;
+  grid-template-columns: 1fr;
+  /* align-items: center;
+  justify-items: center; */
+  grid-template-columns: 50% 30% 20%;	
+  font-family:;
+  padding:20px;
+  grid-column-gap: 20px;
+  width: 100%;
+  border-bottom-color:  rgba(25 133 161,0.8);
+  border-bottom: solid 1em;
+  }
+
+.myimg{
+  border-radius: 30%;
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  float:right;
+}
+
+.col1{
+  align-items: right;
+  justify-items: center;
+}
+
+.col2{
+  align-items: left;
+  justify-items: center;
+}
+
+/*Footer and contact panel*/
+.footer {
+  top:100%;
+  width: 100%;
+  text-align: center;
+  background-color: #1985a1;
+  text-decoration: none;
+  color: #dcdcdd;
+    position: relative;
+}
+ .cpbtn{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background:#dcdcdd;
+    margin: 2px;
+    border-radius: 30%;
+    color:black;
+    overflow: hidden;
+    position: relative;
+ }
+ .cpbtn i{
+     line-height: 40px;
+     font-size: 30px;
+     transition: 0.2s linear;
+ }
+ .cpbtn:hover i{
+     transform: scale(1.2);
+ }
+
+/*Navbar Bootstrap4*/
+      .navbar-custom {
+        background-color: rgba(220,220,221,0.5)
+    }
+    /* change the brand and text color */
+    .navbar-custom .navbar-brand,
+    .navbar-custom .navbar-text {
+        color: rgba(36, 43, 48,0.8);
+    }
+    /* change the link color */
+    .navbar-custom .navbar-nav .nav-link {
+        color: rgba(36, 43, 48,0.8);
+    }
+    /* change the color of active or hovered links */
+    .navbar-custom .nav-item.active .nav-link,
+    .navbar-custom .nav-item:hover .nav-link {
+        color: rgba(36, 43, 48);
+    }
