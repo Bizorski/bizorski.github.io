@@ -31,16 +31,15 @@ body{
 
 .aboutme{
   display: grid;
-  grid-template-columns: 1fr;
-  /* align-items: center;
-  justify-items: center; */
-  grid-template-columns: 50% 30% 20%;	
+  grid-template-columns: 100%;
+  grid-auto-rows: 1fr;
   font-family:;
   padding:20px;
-  grid-column-gap: 20px;
+  grid-row-gap: 10px;
   width: 100%;
   border-bottom-color:  rgba(25 133 161,0.8);
   border-bottom: solid 1em;
+  justify-items: center;
   }
 
 .myimg{
@@ -48,18 +47,8 @@ body{
   width: 250px;
   height: 250px;
   padding: 20px;
-  float:right;
 }
 
-.col1{
-  align-items: right;
-  justify-items: center;
-}
-
-.col2{
-  align-items: left;
-  justify-items: center;
-}
 
 /*Footer and contact panel*/
 .footer {
