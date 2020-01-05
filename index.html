@@ -7,44 +7,28 @@
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <link href="./assets/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	</head>
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+  </head>
 <body>
 
-<!-- Navigation bar -->
-<nav class="navbar navbar-expand-md navbar-custom">
-  <a class="navbar-brand" href="index.html">
-    <img src="logo_transparent.png" width="50" height="50" class="d-inline-block align-top" alt="brandicon">
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="comingsoon.html">Blog</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="skills.html">Skills</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="Comingsoon.html" role="button" data-toggle="dropdown" data-target="dropdown_target">
-        Interests
-        </a>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="Comingsoon.html">Network Complexity</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item"> Travel</a>
-          <a class="dropdown-item"> Music</a>
-          <a class="dropdown-item"> Cooking</a>
-        </div>
-        </li>
-    </ul>
-  </div>
-</nav>
+  <!--responsive navbar-->
+  <div class="nav-container">
+    <nav>
+      <input type="checkbox" id="nav-toggle">
+      <label for="nav-toggle" class="logobutton">
+      <img src="logo_transparent.png" alt="">
+      </label>
+      <div class="left-menu">
+        <a href="index.html">About</a>
+        <a href="comingsoon.html">Blog</a>
+        <a  href="skills.html">Skills</a>
+        <a  href="comingsoon.html">Interests</a>
+      </div>
+      <a href="#" class="logo">Home</a>
+    </nav>
+</div>
 
 <!--Header box-->
 <header class='masthead'>
@@ -61,9 +45,9 @@
     <div class="row2">
     <h2>About Me</h2>
     <p> I like to <strong>pursue</strong> things to help make sense of the complex world we live in. </p>
-    <p> I like to <strong>learn</strong> skills,concepts and frameworks to support this pursuit of "truth". </p>
+    <p> I like to <strong>learn</strong> skills, concepts and frameworks to support this pursuit of "truth". </p>
     <p> I like to <strong>appreciate</strong> uncertainty, and marvel at the complexity that comes with it. </p>
-    <p> I like to <strong>refine</strong> my thinking and convert my findings into tangible action.</p>
+    <p> I like to <strong>refine</strong> my thoughts and translate them into action.</p>
     </div>
  </main> 
 
@@ -89,28 +73,6 @@
   </footer>
   </main>
   </div>
-
-
-
-
-
-
-
-
-
-
-
-  
-    
-
-
-
-
-
-
-
-
-
 
 </body>
 </html>
